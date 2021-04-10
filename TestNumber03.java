@@ -54,10 +54,11 @@ public class JobSch_2 {
     public static void main(String[] args) {
         Random r = new Random();
         Scanner scan = new Scanner(System.in);
-        int n = 10; //scan.nextInt(); // 작업의 갯수 입력받기
+        int n = scan.nextInt(); //scan.nextInt(); // 작업의 갯수 입력받기
         int s=0,f=0;
         JobSch_2 job = new JobSch_2();
         List<JobS> L = new ArrayList<>();
+        scan.close();
 
         for (int i=0;i<n;i++){
             s = r.nextInt(10)+1;
