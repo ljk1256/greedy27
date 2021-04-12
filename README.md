@@ -1,11 +1,3 @@
-# Greedy27
----
-layout: single
-title:  "JobScheduling_Greedy27"
-date:   2021-04-13 22:00:00 +0900
-categories: jekyll update
----
-
 ### JobScheduling_Greedy27
 
 **1. 작업 스케줄링 알고리즘이란 ?**
