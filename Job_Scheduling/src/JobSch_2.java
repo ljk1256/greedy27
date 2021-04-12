@@ -54,7 +54,8 @@ public class JobSch_2 {
     public static void main(String[] args) {
         Random r = new Random();
         Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt(); //scan.nextInt(); // 작업의 갯수 입력받기
+        System.out.print("작업의 개수를 입력하세요 : ");
+        int n = scan.nextInt(); //scan.nextInt(); // 작업의 개수 입력받기
         int s=0,f=0;
         JobSch_2 job = new JobSch_2();
         List<JobS> L = new ArrayList<>();
