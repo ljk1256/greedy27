@@ -1,25 +1,14 @@
-import java.lang.reflect.Array;
-import java.util.*;
-import static javax.swing.UIManager.get;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
+
 public class JobSch_2 {
 
-    public static void main(String[] args) {
-        Random r = new Random();
-        Scanner scan = new Scanner(System.in);
-        int n = 10; //scan.nextInt(); // 작업의 갯수 입력받기
-        int s=0,f=0;
-        List<JobS> L = new ArrayList<>();
-        JobSch_2 job = new JobSch_2();
-
-        for (int i=0;i<n;i++){
-            s = r.nextInt(10)+1;
-            f = r.nextInt(10)+1;
-            if(s>=f) i--;    // 시작시간이 종료시간보다 크거나 같으면 i --;
-            else        L.add(new JobS(s,f)); // 생성된 작업 저장
-        }
-
-        Collections.sort(L,new JobSComparator()); // 시작시간을 기준으로 오름차순 정렬
-        System.out.println(L); // 정렬된 리스트 L 출력
+	public void allocating(List<JobS> L){
+		System.out.println(L); // 정렬된 리스트 L 출력
         ArrayList<ArrayList> M = new ArrayList<ArrayList>();
 
         int flag = 0;
@@ -59,7 +48,28 @@ public class JobSch_2 {
         //출력
         for (int l =0;l<M.size();l++)    System.out.println("Machine"+(l+1)+" => "+M.get(l));
         System.out.println("최적해는 " +M.size()+"대의 기계에 위와 같이 배정하는 것이다.");
-    }
+     }
+
+
+    public static void main(String[] args) {
+        Random r = new Random();
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt(); //scan.nextInt(); // 작업의 갯수 입력받기
+        int s=0,f=0;
+        JobSch_2 job = new JobSch_2();
+        List<JobS> L = new ArrayList<>();
+        scan.close();
+
+        for (int i=0;i<n;i++){
+            s = r.nextInt(10)+1;
+            f = r.nextInt(10)+1;
+            if(s>=f) i--;    // 시작시간이 종료시간보다 크거나 같으면 i --;
+            else        L.add(new JobS(s,f)); // 생성된 작업 저장
+        }
+
+        Collections.sort(L,new JobSComparator()); // 시작시간을 기준으로 오름차순 정렬
+        job.allocating(L);
+ }
 }
 
 // list를 정렬하기 위한 class 생성
@@ -81,11 +91,11 @@ class JobS{
 }
 
 // 시작시간 기준으로 작업들 오름차순 정렬
-class JobSComparator implements Comparator<JobS>{
+ class JobSComparator implements Comparator<JobS>{
     @Override
     public int compare(JobS o1, JobS o2) {
         if(o1.getS()>o2.getS()) return 1;
         if(o1.getS()<o2.getS()) return -1;
         return 0;
-    }
+     }
 }
