@@ -1,4 +1,6 @@
-# JobScheduling 과제 [Greedy27]
+# JobScheduling 과제 
+TEAM : Greedy27
+조원 : 임나정,박종수,이재권
 ---
 **1. 작업 스케줄링 알고리즘이란 ?**
 
