@@ -36,7 +36,7 @@ return 각 기계에 배정된 작업 순서
 
 **4. job scheduling code**
 
-* Click here[Click-here]!
+* [Click-here]! 
 
 
 
