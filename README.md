@@ -34,7 +34,7 @@ while(L≠Φ){
 return 각 기계에 배정된 작업 순서 
 ```
 
-****4. job scheduling code****
+**4. 잡스케줄링 코드 job scheduling code**
 
 * 클릭해 [코드]를 확인해주세요!
 
