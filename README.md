@@ -34,6 +34,8 @@ while(L≠Φ){
 return 각 기계에 배정된 작업 순서 
 ```
 
+**과정 링크를 보려면 여기[과제링크]를 클릭하세요.
+
 
 **4. 역할 분담**
 * `main(), allocating()` : 빠른 시작시간 작업을 우선으로 중복되지않게 작업 배정해주기 _ 이재권, 임나정
@@ -45,4 +47,5 @@ return 각 기계에 배정된 작업 순서
 
 ![jobscheduling 과제 결과](https://user-images.githubusercontent.com/80773617/114476462-387f5200-9c35-11eb-8998-966e38007a65.png)
 
+[과제링크]: https://github.com/dlask913/Greedy27/blob/main/Job_Scheduling/src/JobSch_2.java
 
