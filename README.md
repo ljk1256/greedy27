@@ -36,7 +36,7 @@ return 각 기계에 배정된 작업 순서
 
 **4. job scheduling code**
 
-* Click here!
+* Click here[Click-here]!
 
 
 
@@ -51,5 +51,5 @@ return 각 기계에 배정된 작업 순서
 
 ![jobscheduling 과제 결과](https://user-images.githubusercontent.com/80773617/114476462-387f5200-9c35-11eb-8998-966e38007a65.png)
 
-[Click here]: https://github.com/dlask913/Greedy27/blob/main/Job_Scheduling/src/JobSch_2.java
+[Click-here]: https://github.com/dlask913/Greedy27/blob/main/Job_Scheduling/src/JobSch_2.java
 
