@@ -1,4 +1,4 @@
-# JobScheduling 과제 
+# Job Scheduling 과제 
 
 TEAM : Greedy 27 
 
