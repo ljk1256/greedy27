@@ -6,7 +6,7 @@ TEAM : Greedy 27
 ---
 **1. 작업 스케줄링 알고리즘이란 ?**
 
-![과제 사진](https://user-images.githubusercontent.com/80773617/114477744-b47a9980-9c37-11eb-8789-cbba37105b42.PNG)
+![과제 결](https://user-images.githubusercontent.com/80773617/114479132-d0cc0580-9c3a-11eb-9871-b7c47865a773.PNG)
 
 * 작업의 수행 시간이 중복되지 않도록 모든 작업을 가장 적은 수의 기계에 배정하는 문제
 * 그리디 알고리즘
