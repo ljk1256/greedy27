@@ -35,7 +35,10 @@ return 각 기계에 배정된 작업 순서
 ```
 
 **4. job scheduling code**
-* 코드를 확인하려면 [여기]를 클릭하세요
+
+* Click here!
+
+
 
 
 **5. 역할 분담**
@@ -48,5 +51,5 @@ return 각 기계에 배정된 작업 순서
 
 ![jobscheduling 과제 결과](https://user-images.githubusercontent.com/80773617/114476462-387f5200-9c35-11eb-8998-966e38007a65.png)
 
-[여기]: https://github.com/dlask913/Greedy27/blob/main/Job_Scheduling/src/JobSch_2.java
+[Click here]: https://github.com/dlask913/Greedy27/blob/main/Job_Scheduling/src/JobSch_2.java
 
